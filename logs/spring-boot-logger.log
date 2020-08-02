@@ -1,0 +1,427 @@
+2020-08-02 22:40:20,962 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-02 22:40:20,963 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-02 22:40:21,613 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-08-02 22:40:21,668 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 50ms. Found 2 MongoDB repository interfaces.
+2020-08-02 22:40:22,251 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-08-02 22:40:22,259 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-02 22:40:22,260 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-02 22:40:22,260 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-02 22:40:22,381 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-02 22:40:22,382 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1417 ms
+2020-08-02 22:40:22,636 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-08-02 22:40:22,698 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5f26f37e31b3185e24307916', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:933}] to localhost:27017
+2020-08-02 22:40:22,704 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5f26f37e31b3185e24307916', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3183400}
+2020-08-02 22:40:22,802 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-02 22:40:23,677 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/resources/**'], []
+2020-08-02 22:40:23,678 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/static/**'], []
+2020-08-02 22:40:23,679 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/css/**'], []
+2020-08-02 22:40:23,681 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/js/**'], []
+2020-08-02 22:40:23,681 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/images/**'], []
+2020-08-02 22:40:23,701 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47cd1e37, org.springframework.security.web.context.SecurityContextPersistenceFilter@2ba263df, org.springframework.security.web.header.HeaderWriterFilter@57945c1f, org.springframework.security.web.authentication.logout.LogoutFilter@54c58490, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6b1ce172, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@14bbd6fa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@17788672, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5ee20167, org.springframework.security.web.session.SessionManagementFilter@2d234b9d, org.springframework.security.web.access.ExceptionTranslationFilter@3372e4bb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@829c883]
+2020-08-02 22:40:23,790 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-02 22:40:24,071 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2020-08-02 22:40:24,093 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-02 22:40:24,106 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-02 22:40:24,154 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Opened connection [connectionId{localValue:2, serverValue:934}] to localhost:27017
+2020-08-02 22:41:34,067 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-02 22:41:34,069 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-02 22:41:34,078 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 8 ms
+2020-08-02 22:41:34,509 WARN nz.net.ultraq.thymeleaf.expressions.ExpressionProcessor [http-nio-8080-exec-1] Fragment expression "default" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2020-08-02 22:42:10,986 WARN org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-6] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [123] milliseconds.
+2020-08-02 22:43:09,714 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-08-02 22:43:09,715 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-02 22:43:09,720 INFO com.mongodb.diagnostics.logging.SLF4JLogger [SpringContextShutdownHook] Closed connection [connectionId{localValue:2, serverValue:934}] to localhost:27017 because the pool has been closed.
+2020-08-02 22:46:11,664 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-02 22:46:11,664 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-02 22:46:12,215 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-08-02 22:46:12,261 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 41ms. Found 2 MongoDB repository interfaces.
+2020-08-02 22:46:12,796 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-08-02 22:46:12,806 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-02 22:46:12,806 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-02 22:46:12,807 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-02 22:46:12,887 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-02 22:46:12,887 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1222 ms
+2020-08-02 22:46:13,036 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-08-02 22:46:13,077 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5f26f4dd5b2a7f7bf526ed19', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:938}] to localhost:27017
+2020-08-02 22:46:13,084 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5f26f4dd5b2a7f7bf526ed19', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3358600}
+2020-08-02 22:46:13,169 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-02 22:46:13,860 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/resources/**'], []
+2020-08-02 22:46:13,860 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/static/**'], []
+2020-08-02 22:46:13,861 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/css/**'], []
+2020-08-02 22:46:13,862 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/js/**'], []
+2020-08-02 22:46:13,865 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/images/**'], []
+2020-08-02 22:46:13,885 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@59cafc29, org.springframework.security.web.context.SecurityContextPersistenceFilter@145e1713, org.springframework.security.web.header.HeaderWriterFilter@70a9a8ec, org.springframework.security.web.authentication.logout.LogoutFilter@52dcfbc4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3ed3ad9f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@13a5b9ea, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@44c621f0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ce58000, org.springframework.security.web.session.SessionManagementFilter@e3272d9, org.springframework.security.web.access.ExceptionTranslationFilter@2ce23505, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@678d4b08]
+2020-08-02 22:46:13,972 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-02 22:46:14,217 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2020-08-02 22:46:14,239 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-02 22:46:14,250 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-02 22:46:14,298 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Opened connection [connectionId{localValue:2, serverValue:939}] to localhost:27017
+2020-08-02 22:46:24,853 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-02 22:46:24,853 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-02 22:46:24,861 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 7 ms
+2020-08-02 22:46:25,289 WARN nz.net.ultraq.thymeleaf.expressions.ExpressionProcessor [http-nio-8080-exec-1] Fragment expression "default" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2020-08-02 22:47:39,432 WARN org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-3] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [122] milliseconds.
+2020-08-02 22:48:02,000 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-08-02 22:48:02,002 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-02 22:48:02,006 INFO com.mongodb.diagnostics.logging.SLF4JLogger [SpringContextShutdownHook] Closed connection [connectionId{localValue:2, serverValue:939}] to localhost:27017 because the pool has been closed.
+2020-08-02 23:07:19,165 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-02 23:07:19,168 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-02 23:07:19,693 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-08-02 23:07:19,738 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 41ms. Found 2 MongoDB repository interfaces.
+2020-08-02 23:07:20,286 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-08-02 23:07:20,295 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-02 23:07:20,295 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-02 23:07:20,296 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-02 23:07:20,373 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-02 23:07:20,373 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1204 ms
+2020-08-02 23:07:20,519 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-08-02 23:07:20,558 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5f26f9d02d51de3bc6f7021d', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:952}] to localhost:27017
+2020-08-02 23:07:20,564 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5f26f9d02d51de3bc6f7021d', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2537900}
+2020-08-02 23:07:20,643 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-02 23:07:21,343 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/resources/**'], []
+2020-08-02 23:07:21,344 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/static/**'], []
+2020-08-02 23:07:21,345 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/css/**'], []
+2020-08-02 23:07:21,345 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/js/**'], []
+2020-08-02 23:07:21,348 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/images/**'], []
+2020-08-02 23:07:21,369 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5cc7f924, org.springframework.security.web.context.SecurityContextPersistenceFilter@27e86eb2, org.springframework.security.web.header.HeaderWriterFilter@7ccc6eec, org.springframework.security.web.authentication.logout.LogoutFilter@671cf19f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@90d5f9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d3383a2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c69ed89, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@39bda050, org.springframework.security.web.session.SessionManagementFilter@2f4538da, org.springframework.security.web.access.ExceptionTranslationFilter@54345f60, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1140bd3e]
+2020-08-02 23:07:21,453 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-02 23:07:21,700 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2020-08-02 23:07:21,722 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-02 23:07:21,733 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-02 23:07:21,780 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Opened connection [connectionId{localValue:2, serverValue:953}] to localhost:27017
+2020-08-02 23:07:35,167 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-02 23:07:35,167 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-02 23:07:35,176 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 8 ms
+2020-08-02 23:07:35,515 WARN nz.net.ultraq.thymeleaf.expressions.ExpressionProcessor [http-nio-8080-exec-1] Fragment expression "default" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2020-08-02 23:07:47,206 WARN org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-6] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [145] milliseconds.
+2020-08-02 23:20:21,752 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-02 23:20:21,753 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-02 23:20:22,262 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-08-02 23:20:22,309 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 44ms. Found 2 MongoDB repository interfaces.
+2020-08-02 23:20:22,851 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-08-02 23:20:22,860 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-02 23:20:22,861 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-02 23:20:22,861 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-02 23:20:22,944 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-02 23:20:22,944 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1190 ms
+2020-08-02 23:20:23,102 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-08-02 23:20:23,153 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5f26fcdfd66687572821e6cf', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:963}] to localhost:27017
+2020-08-02 23:20:23,159 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5f26fcdfd66687572821e6cf', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2609800}
+2020-08-02 23:20:23,236 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-02 23:20:23,850 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/resources/**'], []
+2020-08-02 23:20:23,850 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/static/**'], []
+2020-08-02 23:20:23,851 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/css/**'], []
+2020-08-02 23:20:23,852 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/js/**'], []
+2020-08-02 23:20:23,855 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/images/**'], []
+2020-08-02 23:20:23,874 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31c78835, org.springframework.security.web.context.SecurityContextPersistenceFilter@3966f966, org.springframework.security.web.header.HeaderWriterFilter@4e26e0cb, org.springframework.security.web.authentication.logout.LogoutFilter@46d05bbd, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3da5c39a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6335c79f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2e9dd4f8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@367d2e5b, org.springframework.security.web.session.SessionManagementFilter@6002fa76, org.springframework.security.web.access.ExceptionTranslationFilter@778f3b7d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@750ca530]
+2020-08-02 23:20:23,960 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-02 23:20:24,225 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2020-08-02 23:20:24,253 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-02 23:20:24,264 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-02 23:20:24,321 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Opened connection [connectionId{localValue:2, serverValue:964}] to localhost:27017
+2020-08-02 23:20:38,260 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-02 23:20:38,260 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-02 23:20:38,266 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 5 ms
+2020-08-02 23:20:38,615 WARN nz.net.ultraq.thymeleaf.expressions.ExpressionProcessor [http-nio-8080-exec-1] Fragment expression "default" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2020-08-02 23:20:43,470 WARN org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-5] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [150] milliseconds.
+2020-08-02 23:22:49,857 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-08-02 23:22:49,858 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-02 23:22:49,861 INFO com.mongodb.diagnostics.logging.SLF4JLogger [SpringContextShutdownHook] Closed connection [connectionId{localValue:2, serverValue:964}] to localhost:27017 because the pool has been closed.
+2020-08-02 23:24:59,764 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-02 23:24:59,765 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-02 23:25:00,304 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-08-02 23:25:00,349 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 40ms. Found 2 MongoDB repository interfaces.
+2020-08-02 23:25:00,870 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-08-02 23:25:00,879 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-02 23:25:00,880 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-02 23:25:00,881 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-02 23:25:00,956 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-02 23:25:00,957 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1191 ms
+2020-08-02 23:25:01,106 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-08-02 23:25:01,144 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5f26fdf503589e72596b9760', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:965}] to localhost:27017
+2020-08-02 23:25:01,152 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5f26fdf503589e72596b9760', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2657300}
+2020-08-02 23:25:01,230 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-02 23:25:01,896 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/resources/**'], []
+2020-08-02 23:25:01,896 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/static/**'], []
+2020-08-02 23:25:01,897 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/css/**'], []
+2020-08-02 23:25:01,900 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/js/**'], []
+2020-08-02 23:25:01,900 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/images/**'], []
+2020-08-02 23:25:01,920 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@79649423, org.springframework.security.web.context.SecurityContextPersistenceFilter@43c35602, org.springframework.security.web.header.HeaderWriterFilter@2f4acb3f, org.springframework.security.web.authentication.logout.LogoutFilter@516348b5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5208beea, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@54345f60, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@273a51fd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1a12d31c, org.springframework.security.web.session.SessionManagementFilter@2f71d9c4, org.springframework.security.web.access.ExceptionTranslationFilter@14da9005, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6f5453a6]
+2020-08-02 23:25:02,008 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-02 23:25:02,248 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2020-08-02 23:25:02,270 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-02 23:25:02,282 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-02 23:25:02,329 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Opened connection [connectionId{localValue:2, serverValue:966}] to localhost:27017
+2020-08-02 23:25:05,441 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-02 23:25:05,441 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-02 23:25:05,448 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 6 ms
+2020-08-02 23:25:05,783 WARN nz.net.ultraq.thymeleaf.expressions.ExpressionProcessor [http-nio-8080-exec-1] Fragment expression "default" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2020-08-02 23:25:09,634 WARN org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [144] milliseconds.
+2020-08-02 23:26:16,351 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-08-02 23:26:16,352 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-02 23:26:16,356 INFO com.mongodb.diagnostics.logging.SLF4JLogger [SpringContextShutdownHook] Closed connection [connectionId{localValue:2, serverValue:966}] to localhost:27017 because the pool has been closed.
+2020-08-02 23:26:43,767 WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer [main] 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/LENOVO/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/LENOVO/.m2/repository/org/json/json/20200518/json-20200518.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2020-08-02 23:26:44,940 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-08-02 23:26:45,060 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 113ms. Found 2 MongoDB repository interfaces.
+2020-08-02 23:26:45,977 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-08-02 23:26:46,084 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5f26fe5dd2faf942ef12251f', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:967}] to localhost:27017
+2020-08-02 23:26:46,092 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5f26fe5dd2faf942ef12251f', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3770700}
+2020-08-02 23:26:47,232 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/resources/**'], []
+2020-08-02 23:26:47,233 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/static/**'], []
+2020-08-02 23:26:47,234 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/css/**'], []
+2020-08-02 23:26:47,234 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/js/**'], []
+2020-08-02 23:26:47,235 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: Ant [pattern='/images/**'], []
+2020-08-02 23:26:47,396 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6501b105, org.springframework.security.web.context.SecurityContextPersistenceFilter@6ed51944, org.springframework.security.web.header.HeaderWriterFilter@5a8d676e, org.springframework.security.web.authentication.logout.LogoutFilter@5fa0141f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6a4a2090, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1eb906f3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@45707f76, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@66ab924, org.springframework.security.web.session.SessionManagementFilter@63dc3420, org.springframework.security.web.access.ExceptionTranslationFilter@63262071, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3cf4dec7]
+2020-08-02 23:26:47,904 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-02 23:26:48,623 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'taskScheduler'
+2020-08-02 23:26:48,777 INFO com.mongodb.diagnostics.logging.SLF4JLogger [main] Opened connection [connectionId{localValue:2, serverValue:968}] to localhost:27017
+2020-08-02 23:26:49,077 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'taskScheduler'
+2020-08-02 23:26:49,078 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-02 23:26:49,083 INFO com.mongodb.diagnostics.logging.SLF4JLogger [SpringContextShutdownHook] Closed connection [connectionId{localValue:2, serverValue:968}] to localhost:27017 because the pool has been closed.
+2020-08-02 23:27:01,151 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-02 23:27:01,152 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-02 23:27:01,664 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-08-02 23:27:01,715 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 40ms. Found 2 MongoDB repository interfaces.
+2020-08-02 23:27:02,247 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-08-02 23:27:02,255 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-02 23:27:02,256 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-02 23:27:02,256 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-02 23:27:02,331 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-02 23:27:02,332 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1179 ms
+2020-08-02 23:27:02,488 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-08-02 23:27:02,533 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5f26fe6ea8df81064f4c7c9c', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:969}] to localhost:27017
+2020-08-02 23:27:02,540 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5f26fe6ea8df81064f4c7c9c', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3357300}
+2020-08-02 23:27:02,615 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-02 23:27:03,481 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/resources/**'], []
+2020-08-02 23:27:03,482 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/static/**'], []
+2020-08-02 23:27:03,483 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/css/**'], []
+2020-08-02 23:27:03,483 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/js/**'], []
+2020-08-02 23:27:03,486 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/images/**'], []
+2020-08-02 23:27:03,505 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19e32057, org.springframework.security.web.context.SecurityContextPersistenceFilter@eef27c6, org.springframework.security.web.header.HeaderWriterFilter@256912c5, org.springframework.security.web.authentication.logout.LogoutFilter@7d3ca36e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@14782f9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a99937f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4d3f9bef, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2091abc2, org.springframework.security.web.session.SessionManagementFilter@4d821bae, org.springframework.security.web.access.ExceptionTranslationFilter@383e00d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@79614f70]
+2020-08-02 23:27:03,591 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-02 23:27:03,854 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2020-08-02 23:27:03,876 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-02 23:27:03,886 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-02 23:27:03,933 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Opened connection [connectionId{localValue:2, serverValue:970}] to localhost:27017
+2020-08-02 23:27:09,934 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-02 23:27:09,934 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-02 23:27:09,941 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 5 ms
+2020-08-02 23:27:10,245 WARN nz.net.ultraq.thymeleaf.expressions.ExpressionProcessor [http-nio-8080-exec-1] Fragment expression "default" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2020-08-02 23:27:15,519 WARN org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-5] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [147] milliseconds.
+2020-08-02 23:30:23,758 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-181] Shutting down ExecutorService 'taskScheduler'
+2020-08-02 23:30:23,759 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-181] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-02 23:30:23,765 INFO com.mongodb.diagnostics.logging.SLF4JLogger [Thread-181] Closed connection [connectionId{localValue:2, serverValue:970}] to localhost:27017 because the pool has been closed.
+2020-08-02 23:31:22,335 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-02 23:31:22,336 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-02 23:31:23,641 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-08-02 23:31:23,743 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 94ms. Found 2 MongoDB repository interfaces.
+2020-08-02 23:31:25,309 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-08-02 23:31:25,320 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-02 23:31:25,321 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-02 23:31:25,321 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-02 23:31:25,437 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-02 23:31:25,438 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3101 ms
+2020-08-02 23:31:25,748 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-08-02 23:31:25,805 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5f26ff75ad05560a651708d4', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:971}] to localhost:27017
+2020-08-02 23:31:25,812 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5f26ff75ad05560a651708d4', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3404000}
+2020-08-02 23:31:25,953 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-02 23:31:26,913 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/resources/**'], []
+2020-08-02 23:31:26,914 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/static/**'], []
+2020-08-02 23:31:26,914 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/css/**'], []
+2020-08-02 23:31:26,915 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/js/**'], []
+2020-08-02 23:31:26,915 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/images/**'], []
+2020-08-02 23:31:26,949 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@541fbaba, org.springframework.security.web.context.SecurityContextPersistenceFilter@41b61451, org.springframework.security.web.header.HeaderWriterFilter@55a2c6dc, org.springframework.security.web.authentication.logout.LogoutFilter@299899ee, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@411513cd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4257d4cf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@199b1051, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@10fb24f7, org.springframework.security.web.session.SessionManagementFilter@5046f003, org.springframework.security.web.access.ExceptionTranslationFilter@5c6c08fa, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7d3a0dc7]
+2020-08-02 23:31:27,085 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-02 23:31:27,536 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2020-08-02 23:31:27,569 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-02 23:31:27,586 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-02 23:31:27,694 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Opened connection [connectionId{localValue:2, serverValue:972}] to localhost:27017
+2020-08-02 23:32:26,558 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-02 23:32:26,558 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-02 23:32:26,569 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 10 ms
+2020-08-02 23:32:27,920 WARN nz.net.ultraq.thymeleaf.expressions.ExpressionProcessor [http-nio-8080-exec-1] Fragment expression "default" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2020-08-02 23:32:33,458 WARN org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-6] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [130] milliseconds.
+2020-08-02 23:35:23,254 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-02 23:35:23,255 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-02 23:35:24,440 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-08-02 23:35:24,536 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 88ms. Found 2 MongoDB repository interfaces.
+2020-08-02 23:35:25,994 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-08-02 23:35:26,011 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-02 23:35:26,012 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-02 23:35:26,013 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-02 23:35:26,131 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-02 23:35:26,132 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2874 ms
+2020-08-02 23:35:26,473 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-08-02 23:35:26,542 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5f270066f6025960bdbf0dab', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:973}] to localhost:27017
+2020-08-02 23:35:26,556 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5f270066f6025960bdbf0dab', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3233800}
+2020-08-02 23:35:26,678 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-02 23:35:27,705 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/resources/**'], []
+2020-08-02 23:35:27,705 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/static/**'], []
+2020-08-02 23:35:27,706 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/css/**'], []
+2020-08-02 23:35:27,707 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/js/**'], []
+2020-08-02 23:35:27,708 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/images/**'], []
+2020-08-02 23:35:27,742 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6e6a97d6, org.springframework.security.web.context.SecurityContextPersistenceFilter@3e737fe9, org.springframework.security.web.header.HeaderWriterFilter@4b8c21bf, org.springframework.security.web.authentication.logout.LogoutFilter@3aa22fc3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@47ce3f06, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5bf31619, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@34ccce53, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@24a7f132, org.springframework.security.web.session.SessionManagementFilter@32f799ce, org.springframework.security.web.access.ExceptionTranslationFilter@581e13e7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3d848351]
+2020-08-02 23:35:27,880 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-02 23:35:28,937 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2020-08-02 23:35:28,985 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-02 23:35:29,017 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-02 23:35:29,204 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Opened connection [connectionId{localValue:2, serverValue:974}] to localhost:27017
+2020-08-02 23:35:33,356 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-02 23:35:33,357 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-02 23:35:33,366 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 9 ms
+2020-08-02 23:35:33,952 WARN nz.net.ultraq.thymeleaf.expressions.ExpressionProcessor [http-nio-8080-exec-1] Fragment expression "default" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2020-08-02 23:35:38,911 WARN org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-5] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [138] milliseconds.
+2020-08-02 23:37:50,098 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-02 23:37:50,100 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-02 23:37:51,472 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-08-02 23:37:51,552 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 73ms. Found 2 MongoDB repository interfaces.
+2020-08-02 23:37:53,574 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-08-02 23:37:53,593 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-02 23:37:53,594 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-02 23:37:53,594 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-02 23:37:53,753 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-02 23:37:53,754 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3653 ms
+2020-08-02 23:37:54,043 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-08-02 23:37:54,114 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5f2700faf7939239d7432233', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:975}] to localhost:27017
+2020-08-02 23:37:54,126 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5f2700faf7939239d7432233', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4214300}
+2020-08-02 23:37:54,306 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-02 23:37:55,212 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/resources/**'], []
+2020-08-02 23:37:55,212 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/static/**'], []
+2020-08-02 23:37:55,213 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/css/**'], []
+2020-08-02 23:37:55,213 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/js/**'], []
+2020-08-02 23:37:55,213 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/images/**'], []
+2020-08-02 23:37:55,245 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ec85c4c, org.springframework.security.web.context.SecurityContextPersistenceFilter@76c82ccd, org.springframework.security.web.header.HeaderWriterFilter@73800d70, org.springframework.security.web.authentication.logout.LogoutFilter@670b2a3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@31c72a78, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@23ceb636, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e58ce30, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2f79639e, org.springframework.security.web.session.SessionManagementFilter@1f8dfd90, org.springframework.security.web.access.ExceptionTranslationFilter@1347aad8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7f6b8d8c]
+2020-08-02 23:37:55,379 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-02 23:37:55,896 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2020-08-02 23:37:55,930 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-02 23:37:55,947 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-02 23:37:56,044 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Opened connection [connectionId{localValue:2, serverValue:976}] to localhost:27017
+2020-08-02 23:38:00,059 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-02 23:38:00,059 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-02 23:38:00,067 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 8 ms
+2020-08-02 23:38:00,638 WARN nz.net.ultraq.thymeleaf.expressions.ExpressionProcessor [http-nio-8080-exec-1] Fragment expression "default" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2020-08-02 23:38:07,560 WARN org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-8] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [143] milliseconds.
+2020-08-02 23:40:02,475 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-02 23:40:02,477 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-02 23:40:04,198 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-08-02 23:40:04,273 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 68ms. Found 2 MongoDB repository interfaces.
+2020-08-02 23:40:06,249 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-08-02 23:40:06,295 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-02 23:40:06,296 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-02 23:40:06,298 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-02 23:40:06,441 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-02 23:40:06,442 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3962 ms
+2020-08-02 23:40:06,952 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-08-02 23:40:07,049 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5f27017e40b5aa59b538c20d', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:977}] to localhost:27017
+2020-08-02 23:40:07,056 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5f27017e40b5aa59b538c20d', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4248400}
+2020-08-02 23:40:07,318 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-02 23:40:09,134 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/resources/**'], []
+2020-08-02 23:40:09,134 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/static/**'], []
+2020-08-02 23:40:09,137 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/css/**'], []
+2020-08-02 23:40:09,138 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/js/**'], []
+2020-08-02 23:40:09,142 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/images/**'], []
+2020-08-02 23:40:09,192 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@17c762bf, org.springframework.security.web.context.SecurityContextPersistenceFilter@76747e11, org.springframework.security.web.header.HeaderWriterFilter@3b7a55de, org.springframework.security.web.authentication.logout.LogoutFilter@4dbfeb01, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6be6e676, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@77b9b56, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@56969736, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4e83f567, org.springframework.security.web.session.SessionManagementFilter@540918c2, org.springframework.security.web.access.ExceptionTranslationFilter@455f453f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@633789ae]
+2020-08-02 23:40:09,423 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-02 23:40:10,195 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2020-08-02 23:40:10,303 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-02 23:40:10,329 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-02 23:40:10,500 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Opened connection [connectionId{localValue:2, serverValue:978}] to localhost:27017
+2020-08-02 23:40:15,126 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-02 23:40:15,126 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-08-02 23:40:15,135 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 8 ms
+2020-08-02 23:40:15,341 WARN org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [164] milliseconds.
+2020-08-02 23:40:15,840 WARN nz.net.ultraq.thymeleaf.expressions.ExpressionProcessor [http-nio-8080-exec-2] Fragment expression "default" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+2020-08-02 23:51:58,194 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-181] Shutting down ExecutorService 'taskScheduler'
+2020-08-02 23:51:58,194 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-181] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-02 23:51:58,199 INFO com.mongodb.diagnostics.logging.SLF4JLogger [Thread-181] Closed connection [connectionId{localValue:2, serverValue:978}] to localhost:27017 because the pool has been closed.
+2020-08-02 23:52:00,579 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-08-02 23:52:00,583 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 3ms. Found 0 MongoDB repository interfaces.
+2020-08-02 23:52:00,817 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-08-02 23:52:00,820 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-02 23:52:00,821 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-02 23:52:00,822 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-02 23:52:00,891 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-02 23:52:00,891 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2104 ms
+2020-08-02 23:52:00,914 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'init' defined in com.wander.codechallenge.WanderApplication: Unsatisfied dependency expressed through method 'init' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wander.codechallenge.repositories.RoleRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2020-08-02 23:52:00,915 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2020-08-02 23:52:00,930 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-08-02 23:52:01,176 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method init in com.wander.codechallenge.WanderApplication required a bean of type 'com.wander.codechallenge.repositories.RoleRepository' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wander.codechallenge.repositories.RoleRepository' in your configuration.
+
+2020-08-02 23:53:34,664 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-08-02 23:53:34,666 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 1ms. Found 0 MongoDB repository interfaces.
+2020-08-02 23:53:34,934 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-08-02 23:53:34,935 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-02 23:53:34,936 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-02 23:53:34,937 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-02 23:53:35,008 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-02 23:53:35,009 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2119 ms
+2020-08-02 23:53:35,113 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'init' defined in com.wander.codechallenge.WanderApplication: Unsatisfied dependency expressed through method 'init' parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.wander.codechallenge.repositories.RoleRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2020-08-02 23:53:35,114 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2020-08-02 23:53:35,119 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-08-02 23:53:35,231 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method init in com.wander.codechallenge.WanderApplication required a bean of type 'com.wander.codechallenge.repositories.RoleRepository' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.wander.codechallenge.repositories.RoleRepository' in your configuration.
+
+2020-08-02 23:57:31,638 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-08-02 23:57:31,698 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 59ms. Found 2 MongoDB repository interfaces.
+2020-08-02 23:57:31,997 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2020-08-02 23:57:31,998 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2020-08-02 23:57:32,000 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-08-02 23:57:32,000 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-08-02 23:57:32,057 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-08-02 23:57:32,058 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1181 ms
+2020-08-02 23:57:32,129 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-08-02 23:57:32,142 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5f27059440b5aa59b538c20f', description='null'}-localhost:27017] Opened connection [connectionId{localValue:3, serverValue:981}] to localhost:27017
+2020-08-02 23:57:32,146 INFO com.mongodb.diagnostics.logging.SLF4JLogger [cluster-ClusterId{value='5f27059440b5aa59b538c20f', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=507300}
+2020-08-02 23:57:32,157 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-08-02 23:57:32,484 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/resources/**'], []
+2020-08-02 23:57:32,484 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/static/**'], []
+2020-08-02 23:57:32,484 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/css/**'], []
+2020-08-02 23:57:32,484 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/js/**'], []
+2020-08-02 23:57:32,484 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: Ant [pattern='/images/**'], []
+2020-08-02 23:57:32,489 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2abfa2a8, org.springframework.security.web.context.SecurityContextPersistenceFilter@62f553c0, org.springframework.security.web.header.HeaderWriterFilter@750f83d3, org.springframework.security.web.authentication.logout.LogoutFilter@53596e5c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6bb9a39f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3e3f7716, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37277a19, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@323d74fb, org.springframework.security.web.session.SessionManagementFilter@7757095, org.springframework.security.web.access.ExceptionTranslationFilter@64e70e36, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@18100ef8]
+2020-08-02 23:57:32,584 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-02 23:57:32,702 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'taskScheduler'
+2020-08-02 23:57:32,754 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2020-08-02 23:57:32,758 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2020-08-02 23:57:32,799 INFO com.mongodb.diagnostics.logging.SLF4JLogger [restartedMain] Opened connection [connectionId{localValue:4, serverValue:982}] to localhost:27017
+2020-08-02 23:57:32,809 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-08-02 23:57:41,961 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-10] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-02 23:57:41,961 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-10] Initializing Servlet 'dispatcherServlet'
+2020-08-02 23:57:41,964 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-10] Completed initialization in 3 ms

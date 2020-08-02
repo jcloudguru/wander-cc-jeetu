@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="default">
+    <head>
+        <title>XCOVID-19 Dashboard</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body style="padding-top: 1070px; padding-bottom: 1010px;">
+        <div layout:fragment="content">
+            <table class="table table-bordered table-hover table-dark">
+                <tr class="table-info">
+                    <th class="bg-danger">Total for India</th>
+                    <th class="bg-danger" th:text="'Total | ' + ${totalConfirmed}"></th>
+                    <th class="bg-danger" th:text="'Total | ' + ${totalActive}"></th>
+                    <th class="bg-danger" th:text="'Total | ' + ${totalRecovered}"></th>
+                    <th class="bg-danger" th:text="'Total | ' + ${totalDeceased}"></th>
+                </tr>
+             <tr class="table-info">
+                 <th class="bg-success">State</th>
+                 <th class="bg-success">Confirmed</th>
+                 <th class="bg-success">Active</th>
+                 <th class="bg-success">Recovered</th>
+                 <th class="bg-success">Deceased</th>
+             </tr>
+             <tr th:each="stateWiseStat : ${stateWiseStats}">
+                 <td th:text="${stateWiseStat.state}"></td>
+                 <td th:text="${stateWiseStat.confirmed}"></td>
+                 <td th:text="${stateWiseStat.active}"></td>
+                 <td th:text="${stateWiseStat.recovered}"></td>
+                 <td th:text="${stateWiseStat.deaths}"></td>
+             </tr>
+         </table>
+
+           </div>
+    </body>
+</html>

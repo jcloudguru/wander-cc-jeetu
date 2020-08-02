@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="default">
+    <head>
+        <title>Wander Code Challenge : Jitender</title>
+
+    </head>
+    <body style="padding-top: 160px; padding-bottom: 150px;">
+        <div layout:fragment="content">
+            <h5>Hello and Welcome!</h5>
+<p>Please <a th:href="@{/login}">Sign in</a> to see latest COVID-19 details of all Indian states.</p>
+            <canvas id="myChart" width="880" height="300"></canvas>
+        </div>
+
+
+
+
+
+    </body>
+</html>
