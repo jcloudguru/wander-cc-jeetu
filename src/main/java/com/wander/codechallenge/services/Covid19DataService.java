@@ -41,12 +41,6 @@ public class Covid19DataService {
     @Scheduled(cron = "* * 1 * * *")
     public void getCovidData() throws IOException, InterruptedException {
 
-       /* List<StateWiseStats> newStats = new ArrayList<>();
-        HttpClient httpClient = HttpClient.newHttpClient();
-        HttpRequest httpRequest = HttpRequest.newBuilder()
-                .uri(URI.create(COVID19_DATA_URL)).build();
-        HttpResponse<String> httpResponse = httpClient.send(httpRequest, HttpResponse.BodyHandlers.ofString());*/
-
         StringBuilder httpResponse = new StringBuilder();
         URL url = new URL(COVID19_DATA_URL);
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
